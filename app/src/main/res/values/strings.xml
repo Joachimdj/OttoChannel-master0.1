@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OttoChannel</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_episodes">Episodes</string>
+    <string name="next_show">Next Show</string>
+    <string name="episoder">Episoder</string>
+    <string name="citater">Citater</string>
+    <string name="program">Program</string>
+
+</resources>

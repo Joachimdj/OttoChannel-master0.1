@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    tools:context="dk.ottochannel.ottochannel.Fragments.NextShow">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Næste show om"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:paddingBottom="150dp" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="Next Show"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\n8 Dage\n3 timer\n20 minutter\n11 sekunder\n\n I Baren"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:paddingTop="-50dp"
+        android:gravity="center"
+        android:scaleType="center"/>
+
+
+</FrameLayout>
